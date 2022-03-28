@@ -1,17 +1,34 @@
-Juan_Perez    30-30-64-00
- Jose_Ramon_de_la_Morena
+Nombre completo de una persona: Palabras (al menos dos) unidas por guion bajo. El primer
+ nombre debe iniciar con mayuscula, puede tener conectores que inicien con minuscula pero
+  no pueden ser de mas de 4 caracteres. No mas de 4 bloques de nombres y apellidos (pueden
+   ser mas con los conectores).  No puede terminar con un conector 
+o   Juan_Perez
+o   Jose_Ramon_de_la_Morena
 
-   30-30-64-00
-   (33)-30-30-45-23        
+No son nombres validos:  JuAn_PErez 	Jorge_ysdf 	Juan  juan_Perez   Juan23_Perez  Juan_de 
 
-  33-35-22-33-44
-  044-33-35-22-33-44
-  [044]-33-35-22-33-44
+ Telefono local: Secuencias de 8 digitos unidas por guion medio cada par de digitos, o de
+  10 digitos con parentesis en el primer par.
+o   30-30-64-00
+o   (33)-30-30-45-23        
+ Telefono celular: Secuencias de 10 digitos unidas por guion medio cada par de digitos, o
+  de 13 digitos con los 3 primeros utilizando corchetes opcionales
+o   33-35-22-33-44
+o   044-33-35-22-33-44
+o   [044]-33-35-22-33-44
+                      
 
-   profesor@localhost
-   aderas.apellido@mail.edunet.mx
-   soporte.hardware-software4@mail.net.mx
+ 
+Correo electronico: Secuencia separada por el simbolo de @. El nombre de usuario debe
+ iniciar por una letra, puede contener letras, numeros, guion bajo, guion medio o
+  punto. Los elementos del dominio siguen las mismas reglas que los de la URL.
+o   profesor@localhost
+o   aderas.apellido@mail.edunet.mx
+o   soporte.hardware-software4@mail.net.mx
+ 
+Tarjetas bancarias  mastercard : 16 digitos empieza  con 51, 52, 53, 54 o 55.
 
-5212345678910111
+			5212345678910111
 
-4212345678910111
+Tarjetas bancarias  visa : 16 digitos empieza  con 4.
+       			4212345678910111

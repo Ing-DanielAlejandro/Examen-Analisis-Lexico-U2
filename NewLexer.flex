@@ -6,6 +6,7 @@ import static Jflextest.Token.*;
 
 
 white=[ ]
+tab=[\t]
 contemail = ([A-Z]|[a-z])[A-Za-z0-9"_""-""."]*
 conector = [a-z]?[a-z]?[a-z]?[a-z]?"_"
 nombre = [A-Z][a-z]+"_"
@@ -23,7 +24,7 @@ visa = "4"[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
 %}
 %%
 
-
+{tab} {lexeme=yytext(); return Tab; }
 {white} {lexeme=yytext(); return White; }
 {nombreC} {lexeme=yytext(); return Nombre; }
 {tellocal} {lexeme=yytext(); return Tellocal; }
